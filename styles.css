@@ -42,7 +42,7 @@ header {
     text-align: center;
     color: #fff;
     background-attachment: fixed;
-    background-image: url(https://images.pexels.com/photos/1229861/pexels-photo-1229861.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
+    background-image: url(https://images.unsplash.com/photo-1480506132288-68f7705954bd?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60);
     background-position: center center;
     background-repeat: none;
     -webkit-background-size: cover;
@@ -121,7 +121,7 @@ section h3.section-subheading {
 
 
 section#contact {
-    background-image: url(https://images.unsplash.com/photo-1499551660540-eaf0697882f5?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=74eb362552c4baebe19273219bdb588e&auto=format&fit=crop&w=500&q=60);
+    background-image: url(https://images.unsplash.com/photo-1503437313881-503a91226402?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60);
     background-position: center;
     background-size: cover;
     background-attachment: fixed;
