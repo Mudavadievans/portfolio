@@ -42,13 +42,14 @@ header {
     text-align: center;
     color: #fff;
     background-attachment: fixed;
-    background-image: url(https://images.unsplash.com/photo-1480506132288-68f7705954bd?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60);
+    background-image: url('img/comp.jpg');
     background-position: center center;
     background-repeat: none;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
     -o-background-size: cover;
+    opacity: 0.7;
 }
 
 header .intro-text {
@@ -66,6 +67,7 @@ header .intro-text .intro-lead-in {
 
 header .intro-text .intro-heading {
     margin-bottom: 25px;
+    text-decoration-color: black;
     text-transform: uppercase;
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
     font-size: 30px;
@@ -121,7 +123,8 @@ section h3.section-subheading {
 
 
 section#contact {
-    background-image: url(https://images.unsplash.com/photo-1503437313881-503a91226402?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60);
+/*    background-image: url(https://images.unsplash.com/photo-1503437313881-503a91226402?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60);*/
+    background-color: #0000;
     background-position: center;
     background-size: cover;
     background-attachment: fixed;
@@ -148,7 +151,7 @@ section#contact {
 
 }
 a:hover{
-    color: #27e716;
+    color: #6495ED;
     text-decoration: none;
 }
 a{
@@ -409,3 +412,33 @@ ul.social-icons {
       background-color: #6495ED;
       padding: 30px;
   }
+
+/*---------------------
+  Hero section
+-----------------------*/
+#skill{
+  font-weight: bold;
+}
+table img {
+  width: 350px;
+  height: 190px;
+  overflow: hidden;
+}
+
+table td {
+  padding-left: 65px;
+  padding-top: 20px;
+}
+
+table img:hover {
+  transform: scale(1.1);
+  transition: all .4s ease-in;
+  filter: grayscale(1);
+}
+
+table td p {
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 21px;
+  font-style: oblique;
+}
+url(https://images.unsplash.com/photo-1480506132288-68f7705954bd?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60)
