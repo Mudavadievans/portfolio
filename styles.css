@@ -1,20 +1,31 @@
+#name{ 
+  font-family: Patua one;
+  font-style:normal;
+  font-size: x-large;
+  padding: 10px;
+}
+head{
+  font-family: Patua One; 
+  font-style: normal; 
+text-decoration-color: black;
+}
 #about{
     background-color: #6495ED;
 
 }
-#ab{
+/* #ab{
     background-color: rgba(0, 0, 0, 0.6);
     padding: 40px;
 
-}
+} */
 h6{
     font-size: 25px;
 }
 
-#skills{
-    padding: 70px;
+/* #skills{
+    
 
-}
+} */
 
 
 
@@ -416,12 +427,12 @@ ul.social-icons {
 /*---------------------
   Hero section
 -----------------------*/
-#skill{
+#skills{
   font-weight: bold;
+  padding: 70px;
 }
 table img {
-  width: 350px;
-  height: 190px;
+  width: 250px;
   overflow: hidden;
 }
 
