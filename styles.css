@@ -453,7 +453,10 @@ ul.social-icons {
 
 
   }
-
+  #contact{
+    font-size: large;
+    
+  }
   #contacts{
       background-color: #6495ED;
       padding: 30px;
