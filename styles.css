@@ -33,10 +33,32 @@
   .col-11 {width: 91.66%;}
   .col-12 {width: 100%;}
 }
-navbar{
+#btn {
+  /* background: url(img/scrollup.gif) no-repeat; */
+  display: none; /* Hidden by default */
+  position: fixed; /* Fixed/sticky position */
+  bottom: 20px; /* Place the button at the bottom of the page */
+  right: 30px; /* Place the button 30px from the right */
+  z-index: 99; /* Make sure it does not overlap */
+  border: none; /* Remove borders */
+  outline: none; /* Remove outline */
+  background-color: red; /* Set a background color */
+  color: white; /* Text color */
+  cursor: pointer; /* Add a mouse pointer on hover */
+  padding: 15px; /* Some padding */
+  border-radius: 10px; /* Rounded corners */
+  font-size: 18px; /* Increase font size */
+}
+#main_nav{
+  float: right;
+}
+#navbarCollapse{
   font-size:20px; 
   background-color:black; 
   padding:10px;
+  position: fixed; /* Set the navbar to fixed position */
+  top: 0; /* Position the navbar at the top of the page */
+  width: 100%; /* Full width */
 }
 #name{ 
   font-family: Patua one;
@@ -53,19 +75,12 @@ text-decoration-color: black;
     background-color: #696969;
    
 }
-/* #ab{
-    background-color: rgba(0, 0, 0, 0.6);
-    padding: 40px;
 
-} */
 h6{
     font-size: 25px;
 }
 
-/* #skills{
-    
 
-} */
 
 
 
@@ -496,4 +511,6 @@ table td p {
   font-size: 21px;
   font-style: oblique;
 }
+
+
 url(https://images.unsplash.com/photo-1480506132288-68f7705954bd?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60)
