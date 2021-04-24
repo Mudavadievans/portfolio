@@ -4,6 +4,8 @@
   <head>
     <meta charset="utf-8">
     <title>E.mudavadi</title>
+    <link rel="stylesheet" media="screen and (min-width: 900px)" href="widescreen.css">
+    <link rel="stylesheet" media="screen and (max-width: 600px)" href="smallscreen.css">
     <link href="https://fonts.googleapis.com/css?family=Ultra" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Courgette" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=New+Rocker" rel="stylesheet">
@@ -13,8 +15,8 @@
     <link href="https://fonts.googleapis.com/css?family=Chicle|Euphoria+Script|Fontdiner+Swanky|Geostar+Fill|Oleo+Script+Swash+Caps|julee|Piedra|Rakkas|Shojumaru" rel="stylesheet">
   </head>
   <body>
-
-    <div class="navbar fixed-top" style=" font-size:20px; background-color:black; padding:10px;">
+    <!-- navigation section -->
+    <nav class="navbar fixed-top" style="">
         <div class="nav-header" >
             <div class="nav-title">
                 <a href="#name">
@@ -31,14 +33,14 @@
         </div>
         <div class="nav-links">
             <a href="#about">About</a> | <a href="#skills">Skills</a> | <a href="#projects">Projects</a> | <a href="#contacts">Contacts</a>
-        </div>
+        </nav>
     </div>
     <br>
     <br>
     <br>
     <br>
     <br>
-
+    <!-- introduction section -->
     <header id="head">
         <div class="container">
             <div class="intro-text">
@@ -52,7 +54,7 @@
         </div>
     </header>
 
-
+    <!-- about section -->
     <section id="about">
         <div class="container" id="ab">
 
@@ -89,12 +91,10 @@
                       </td>
                     </tr>
                 </table>
-            </div>
-             
-            
-        </div>
+            </div>          
+        
         <div class="row">
-            <div class="col-md-4">
+            <div class="col-md-12">
                 <table>
                     <tr>
                         <td>
@@ -129,26 +129,20 @@
             </div>
             
         </div>
+        </div>
     </div>
-
+    <!-- projects section -->
     <div id="projects" class="container-fluid">
         <h4 style="text-align:center; text-decoration:underline;">Highlighted Projects</h4>
-        <div class="container">
-
-
-            <hr>
+        <div class="container">            
             <div class="row">
                 <div class="col-md-4">
                     <div class="hovereffect">
-
-
                         <img class="img-responsive" src="images/pic.png" alt="">
                         <div class="overlay">
-
                             <a class="info" href="https://jiraniapp.herokuapp.com/" class="portfolio-info" target="_blank">Live site</a>
                             <a class="info" href="https://github.com/drewheathens/neighbourhood.git" target="_blank">Repo</a>
                             <hr>
-
                             </p>
                         </div>
                     </div>
@@ -255,8 +249,8 @@
 
     <footer id="contacts">
         <div class="footer-social-icons">
-            <h3 class="text-center" style="text-decoration:underline; text-align: center;">Get in touch</h3>
-            <ul class="social-icons" style="text-align: center;">
+            <h3 class="text-center" style=" ">Get in touch</h3>
+            <ul class="social-icons" style="">
 
                 <li><a href="https://www.linkedin.com/in/evans-mudavadi/" target="_blank" class="social-icon"> <i class="fa fa-linkedin"></i></a></li>
                 <li><a href="https://github.com/drewheathens" target="_blank" class="social-icon"> <i class="fa fa-github"></i></a></li>

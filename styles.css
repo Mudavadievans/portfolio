@@ -33,6 +33,11 @@
   .col-11 {width: 91.66%;}
   .col-12 {width: 100%;}
 }
+navbar{
+  font-size:20px; 
+  background-color:black; 
+  padding:10px;
+}
 #name{ 
   font-family: Patua one;
   font-style:normal;
@@ -45,8 +50,8 @@ head{
 text-decoration-color: black;
 }
 #about{
-    background-color: #6495ED;
-
+    background-color: #696969;
+   
 }
 /* #ab{
     background-color: rgba(0, 0, 0, 0.6);
@@ -176,9 +181,6 @@ section#contact {
     background-attachment: fixed;
     background-repeat: no-repeat;
 }
-
-
-
 
 .flex-containerin-flex {
     display: flex;
@@ -440,12 +442,13 @@ ul.social-icons {
 
 /* Clear floats after image containers */
 .rows::after {
+  margin: auto;
   content: "";
   clear: both;
   display: table;
 }
 
-////////////////////////////////////////////
+
 
 
   #projects{
@@ -458,7 +461,10 @@ ul.social-icons {
     
   }
   #contacts{
-      background-color: #6495ED;
+    text-align: center;
+    text-decoration:underline;
+    text-align: center;
+      background-color: #696969;
       padding: 30px;
   }
 
