@@ -457,6 +457,7 @@
                         /**skills*/
                         section #skills {
                             width: 100%;
+                            position: relative;
                         }
                         .row {
                             width: 100%;
@@ -466,7 +467,7 @@
                             margin: 0%;
                             width: 10px;
                             height: auto;
-                            display: block;
+                            display: flex;
                             position: relative;
                         }
                         table td {
