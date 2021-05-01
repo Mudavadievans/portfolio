@@ -454,6 +454,12 @@
                         section #about {
                             width: 100vw;
                         }
+                        .about-text {
+                            font-size: 15px;
+                            line-break: strict;
+                            font-family: sans-serif;
+                            color: #eee;
+                        }
                         /**skills*/
                         section #skills {
                             width: 100vw;
@@ -466,7 +472,7 @@
                         }
                         table img {
                             margin: 0%;
-                            width: 95px;
+                            width: 55px;
                             height: auto;
                             display: flex;
                         }
@@ -481,8 +487,28 @@
                         section #quote {
                             width: 100vw;
                         }
+                        .quote-text {
+                            margin-top: 0;
+                            margin-bottom: 15px;
+                            font-size: 20px;
+                        }
                         /**footer*/
                         footer #contacts {
                             width: 100vw;
+                        }
+                        footer .footertext {
+                            text-align: center;
+                            text-decoration: underline;
+                            text-align: center;
+                            font-size: 180%;
+                        }
+                        footer .bottom-bar p {
+                            text-align: center;
+                            position: relative;
+                        }
+                        footer .footer-social-icons {
+                            width: 250px;
+                            display: block;
+                            margin: 0 auto;
                         }
                     }
