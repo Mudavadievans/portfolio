@@ -452,15 +452,15 @@
                     {
                         /**about*/
                         section #about {
-                            width: 100%;
+                            width: 100vw;
                         }
                         /**skills*/
                         section #skills {
-                            width: 375px;
+                            width: 100vw;
                             position: relative;
                         }
                         .row {
-                            width: 100%;
+                            width: 100vw;
                             position: relative;
                         }
                         table img {
@@ -475,14 +475,14 @@
                         }
                         /**projects*/
                         section #projects {
-                            width: 100%;
+                            width: 100vw;
                         }
                         /**quote*/
                         section #quote {
-                            width: 100%;
+                            width: 100vw;
                         }
                         /**footer*/
                         footer #contacts {
-                            width: 100%;
+                            width: 100vw;
                         }
                     }
