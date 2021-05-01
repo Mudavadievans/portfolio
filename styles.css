@@ -472,9 +472,10 @@
                         }
                         table img {
                             margin: 0%;
-                            width: 105px;
+                            width: 85px;
                             height: auto;
                             display: flex;
+                            padding: 0
                         }
                         table td {
                             padding: 5px;
