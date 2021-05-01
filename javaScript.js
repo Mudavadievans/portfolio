@@ -4,7 +4,7 @@ document.addEventListener("DOMContentLoaded", function() {
         if (window.scrollY > 50) {
             document.getElementById('myTopnav').classList.add('fixed-top');
             // add padding top to show content behind navbar
-            navbar_height = document.querySelector('.navbar').offsetHeight;
+            navbar_height = document.querySelector('.topnav').offsetHeight;
             document.body.style.paddingTop = navbar_height + 'px';
         } else {
             document.getElementById('myTopnav').classList.remove('fixed-top');
