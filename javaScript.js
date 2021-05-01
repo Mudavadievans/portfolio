@@ -2,17 +2,26 @@
 document.addEventListener("DOMContentLoaded", function() {
     window.addEventListener('scroll', function() {
         if (window.scrollY > 50) {
-            document.getElementById('navbar_top').classList.add('fixed-top');
+            document.getElementById('myTopnav').classList.add('fixed-top');
             // add padding top to show content behind navbar
             navbar_height = document.querySelector('.navbar').offsetHeight;
             document.body.style.paddingTop = navbar_height + 'px';
         } else {
-            document.getElementById('navbar_top').classList.remove('fixed-top');
+            document.getElementById('myTopnav').classList.remove('fixed-top');
             // remove padding top from body
             document.body.style.paddingTop = '0';
         }
     });
 });
+// responsive nav
+function responsiveNavbar() {
+    var x = document.getElementById("myTopnav");
+    if (x.className === "topnav") {
+        x.className += " responsive";
+    } else {
+        x.className = "topnav";
+    }
+}
 
 //Get the scroll up button:
 mybutton = document.getElementById("btn");
