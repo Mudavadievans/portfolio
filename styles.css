@@ -456,7 +456,7 @@
                         }
                         /**skills*/
                         section #skills {
-                            width: 70%;
+                            width: 375px;
                             position: relative;
                         }
                         .row {
